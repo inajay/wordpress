@@ -1,0 +1,10 @@
+*** Weglot Translate Changelog ***
+
+2025-09-30 - version 5.1
+* Improvement: Added support for Brazilian Portuguese (pt-br) as an original language.
+* Improvement: The translation engine now defaults to version 3 if not specified in the settings.
+* Improvement: Updated the plugin URI from wordpress.org to https://www.weglot.com/.
+* Improvement: Added a new filter to prevent the translation of search results.
+* Improvement: Updated translation files to align with WordPress standards.
+* Quality: Increased overall code quality by reaching PHPStan Level 7.
+* Quality: Improved quality checks in the CI pipeline.

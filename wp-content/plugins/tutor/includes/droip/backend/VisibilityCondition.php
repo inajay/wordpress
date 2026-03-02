@@ -652,7 +652,7 @@ class VisibilityCondition
 						return in_array($operand, $fieldValue);
 					}
 				case 'user_state-not_equal': {
-						return in_array($operand, $fieldValue);
+						return !in_array($operand, $fieldValue);
 					}
 			}
 		}

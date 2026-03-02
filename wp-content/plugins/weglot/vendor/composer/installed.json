@@ -1,0 +1,378 @@
+{
+    "packages": [
+        {
+            "name": "gmulti/morphism-php",
+            "version": "dev-dev-bugfix",
+            "version_normalized": "dev-dev-bugfix",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/glx77/morphism-php.git",
+                "reference": "578752d5a21b57dd6e6cf4c04f12c96c3df42372"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/glx77/morphism-php/zipball/578752d5a21b57dd6e6cf4c04f12c96c3df42372",
+                "reference": "578752d5a21b57dd6e6cf4c04f12c96c3df42372",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "time": "2023-10-09T06:46:30+00:00",
+            "type": "project",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Morphism\\": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas DENEULIN",
+                    "email": "thomas@delipress.io"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/glx77/morphism-php/tree/dev-bugfix"
+            },
+            "install-path": "../gmulti/morphism-php"
+        },
+        {
+            "name": "psr/cache",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2016-08-06T20:24:11+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/cache/tree/master"
+            },
+            "install-path": "../psr/cache"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.33.0",
+            "version_normalized": "1.33.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+                "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "time": "2025-01-02T08:10:11+00:00",
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-php80"
+        },
+        {
+            "name": "weglot/simplehtmldom",
+            "version": "0.8.4",
+            "version_normalized": "0.8.4.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:weglot/simple_html_dom.git",
+                "reference": "e0d2aeaeac88734ca8bbd8ee5a71d2597652dcf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weglot/simple_html_dom/zipball/e0d2aeaeac88734ca8bbd8ee5a71d2597652dcf0",
+                "reference": "e0d2aeaeac88734ca8bbd8ee5a71d2597652dcf0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "php": ">=5.3.0"
+            },
+            "time": "2025-06-03T09:06:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "WGSimpleHtmlDom": "src/"
+                },
+                "files": [
+                    "src/simple_html_dom.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "S.C. Chen",
+                    "email": "me578022@gmail.com"
+                }
+            ],
+            "description": "Composer package that gives you access to and (unlike all the others at this time) autoloads S.C. Chen's PHP Simple HTML DOM Parser Library",
+            "homepage": "http://simplehtmldom.sourceforge.net/",
+            "keywords": [
+                "dom",
+                "html",
+                "simple"
+            ],
+            "support": {
+                "source": "https://github.com/weglot/simple_html_dom/tree/0.8.4"
+            },
+            "install-path": "../weglot/simplehtmldom"
+        },
+        {
+            "name": "weglot/translation-definitions",
+            "version": "v2.3.4",
+            "version_normalized": "2.3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/weglot/weglot-translation-definitions.git",
+                "reference": "f54b91a863e529f3efbc0c68acde7731a57176de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weglot/weglot-translation-definitions/zipball/f54b91a863e529f3efbc0c68acde7731a57176de",
+                "reference": "f54b91a863e529f3efbc0c68acde7731a57176de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5"
+            },
+            "time": "2021-02-18T14:47:45+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "index.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mehdi Rejraji",
+                    "email": "mehdi@weglot.com"
+                }
+            ],
+            "description": "Weglot's shared definitions",
+            "support": {
+                "issues": "https://github.com/weglot/weglot-translation-definitions/issues",
+                "source": "https://github.com/weglot/weglot-translation-definitions/tree/v2.3.4"
+            },
+            "install-path": "../weglot/translation-definitions"
+        },
+        {
+            "name": "weglot/weglot-php",
+            "version": "1.9.2",
+            "version_normalized": "1.9.2.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:weglot/weglot-php.git",
+                "reference": "d39f6db76eb90e58d2f48349f75d7c149c6ef611"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weglot/weglot-php/zipball/d39f6db76eb90e58d2f48349f75d7c149c6ef611",
+                "reference": "d39f6db76eb90e58d2f48349f75d7c149c6ef611",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.2",
+                "psr/cache": "^1.0 || ^2.0 || ^3.0",
+                "symfony/polyfill-php80": "^1.31",
+                "weglot/simplehtmldom": "^0.8",
+                "weglot/translation-definitions": "^2.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2 || ^3.64",
+                "phpstan/phpstan": "^1.11",
+                "phpstan/phpstan-deprecation-rules": "^1.1",
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.4",
+                "symfony/cache": "^3.4 || 4.4 || ^5.4 || ^6.4 || ^7.1",
+                "symfony/dotenv": "^3.4 || 4.4 || ^5.4 || ^6.4 || ^7.1"
+            },
+            "time": "2025-06-24T07:28:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Weglot\\": "src/",
+                    "WeglotLanguages\\": "node_modules/@weglot/languages/dist/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Weglot\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "cs": [
+                    "vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "vendor/bin/phpstan"
+                ],
+                "test": [
+                    "vendor/bin/phpunit tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Baptiste Leduc",
+                    "email": "baptiste@weglot.com",
+                    "homepage": "https://baptiste-leduc.now.sh/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Thomas Deneulin",
+                    "email": "thomas@weglot.com",
+                    "role": "Review"
+                },
+                {
+                    "name": "Edson Galina Fortes",
+                    "email": "edson@weglot.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library for the Weglot API",
+            "homepage": "https://weglot.com/",
+            "keywords": [
+                "i18n",
+                "languages",
+                "localization",
+                "php",
+                "translate",
+                "translation",
+                "translator",
+                "weglot",
+                "weglot-library"
+            ],
+            "support": {
+                "email": "support@weglot.com",
+                "source": "https://github.com/weglot/weglot-php",
+                "docs": "https://weglot.github.io/weglot-documentation/",
+                "issues": "https://github.com/weglot/weglot-php/issues"
+            },
+            "install-path": "../weglot/weglot-php"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

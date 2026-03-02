@@ -1,0 +1,29 @@
+{
+  "name": "microsoft/news",
+  "description": "",
+  "license": "",
+  "keywords": [],
+  "authors": [],
+  "require": {
+    "php": "^7.3|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "microsoft_start\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "microsoft_start\\tests\\": "../microsoft-start-tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}

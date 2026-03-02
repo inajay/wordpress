@@ -1,0 +1,1993 @@
+# Copyright (C) 2024 Microsoft
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MSN Partner Hub 2.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/__translate_cache\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-07T11:58:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+
+#. Plugin Name of the plugin
+#. translators: Name of plugin, appears in menu bar and edit bar, or in connection page when user tries to connect
+#: infrastructure/Page.php:32
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+msgid "MSN Partner Hub"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.msn.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "MSN Partner Hub WordPress plugin to help WordPress content creators to share content to MSN News feed."
+msgstr ""
+
+#. Author of the plugin
+msgid "Microsoft"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.microsoft.com/"
+msgstr ""
+
+#. translators: table header for a column of publishing status of articles
+#: includes/posts.php:39
+msgid "MSN publish status"
+msgstr ""
+
+#: infrastructure/Page.php:30
+msgid "General"
+msgstr ""
+
+#. translators: submenu item in the Menu bar under Microsoft Start
+#: pages/Dashboard.php:29
+msgid "Partner Hub"
+msgstr ""
+
+#. translators: Notification of update plugin
+#: services/MSNClient.php:208
+msgid "A new version of MSN Partner Hub is available."
+msgstr ""
+
+#. translators: Update button in banner
+#: services/MSNClient.php:209
+msgid "Update Now"
+msgstr ""
+
+#. translators: Notification of publish post
+#: services/MSNClient.php:235
+msgid "Some of your posts haven't been submitted to MSN yet."
+msgstr ""
+
+#. translators: Batch submit button
+#: services/MSNClient.php:236
+#: assets/js/dashboard.js:1
+msgid "Submit all"
+msgstr ""
+
+#. translators: Submit button in banner
+#: services/MSNClient.php:236
+msgid "Edit and submit one by one"
+msgstr ""
+
+#. translators: Notification of batch submit completed
+#: services/MSNClient.php:248
+msgid "Batch submission completed!"
+msgstr ""
+
+#. translators: View details button in banner
+#: services/MSNClient.php:249
+msgid "View details"
+msgstr ""
+
+#. translators: wording displayed in popUp when user is waiting to connect to MSPH
+#: assets/js/callback.js:1
+msgid "Connecting..."
+msgstr ""
+
+#. translators: Detail display info about notification when payment account required.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Payment account required. {delimiter}Enter account information to receive payments."
+msgstr ""
+
+#. translators: Detail display info about notification when payment account error
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Payment account error. {delimiter}Error in payment account. Fix to continue."
+msgstr ""
+
+#. translators: Detail display info about notification when payment account under review
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Payment account under review. {delimiter}Your payment account is under review. This may take several business days."
+msgstr ""
+
+#. translators: Detail display info about notification when payment account set up successfully
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Payment account set up successfully. {delimiter}Your payment account is active"
+msgstr ""
+
+#. translators: Detail display info about notification when payment account is temporary active
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Your payment account is temporary active. {delimiter}Additional information needed for your payment account."
+msgstr ""
+
+#. translators: Detail display info about notification when brand is under review
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Your brand is under review.{delimiter}Your brand profile is under review. This may take up to 5 business days."
+msgstr ""
+
+#. translators: Detail display info about notification when account has not enable reader support.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Enable Reader support.{delimiter}You have not enabled reader support for your business."
+msgstr ""
+
+#. translators: Detail display info about notification when account is under review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Account is under review.{delimiter}We are reviewing your account and this can take up two business days complete normally."
+msgstr ""
+
+#. translators: Detail display info about notification when account did not pass our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Account didn’t pass our review.{delimiter}Your account didn’t pass our review. You can contact us for the support."
+msgstr ""
+
+#. translators: Detail display info about notification when brand didn't pass review
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Brand didn’t pass review.{delimiter}Your brand profile didn’t pass our review."
+msgstr ""
+
+#. translators: Detail display info about notification when account did not pass our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Profile change didn’t pass review.{delimiter}Your brand profile didn’t pass our review. Please edit the brand profile under settings and resubmit the request."
+msgstr ""
+
+#. translators: Detail display info about notification when payment account is required
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "A payment account is required. {delimiter}A payment account is required before publishing. Setup time: 10 minutes or less."
+msgstr ""
+
+#. translators: Detail display info about notification when payment account is not active.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "A payment account is required. {delimiter}A payment account has not been added by your organization. This is required for publishing."
+msgstr ""
+
+#. translators: Detail display info about notification when account is vetting failed.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Your account didn't pass review.{delimiter}"
+msgstr ""
+
+#. translators: Detail display info about notification for AD Rev statements ready.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Monthly Revenue Statement Available{delimiter}Your partner revenue statement is available to download. Please note that only partner-level admins can access."
+msgstr ""
+
+#. translators: Detail display info about notification when partner's trade screening meet "data issue".
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Account didn’t pass review:{delimiter} There seems to be an error in the information submitted. To proceed with next steps, please check the data submitted."
+msgstr ""
+
+#. translators: Detail display info about notification for partner account be suspended.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "This brand is currently suspended by MSN.{delimiter} Content, settings, and feed can still be viewed, but can't be changed."
+msgstr ""
+
+#. translators: Notification button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Detail"
+msgstr ""
+
+#. translators: Notification button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Set up a payment account"
+msgstr ""
+
+#. translators: Notification button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Enable it now"
+msgstr ""
+
+#. translators: Notification button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "View detail"
+msgstr ""
+
+#. translators: Notification button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Add account"
+msgstr ""
+
+#. translators: Notification button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "See details"
+msgstr ""
+
+#. translators: Notification button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "View"
+msgstr ""
+
+#. translators: Contact button
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Contact support"
+msgstr ""
+
+#. translators: one of two options of IsLocalNews
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Yes, content is local"
+msgstr ""
+
+#. translators: one of two options of IsLocalNews
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "No, content isn't local"
+msgstr ""
+
+#. translators: Placeholder text of AI Assisted Content declaration selector
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Select one"
+msgstr ""
+
+#. translators: true value of AI Assisted Content declaration in feed mode config
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Yes, this feed includes AI Assisted Content"
+msgstr ""
+
+#. translators: false value of AI Assisted Content declaration feed mode config
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "No, this feed does not include AI Assisted Content"
+msgstr ""
+
+#. translators: The onboarding task's status text, keep it short.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Completed"
+msgstr ""
+
+#. translators: The info card's title, telling partner that his/her account has passed our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Account approved"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her account has passed our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "The business information provided has passed our review."
+msgstr ""
+
+#. translators: The onboarding task's status text, keep it short.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "In progress"
+msgstr ""
+
+#. translators: The info card's title, telling partner that his/her account is under review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Account under review"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her account is under review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "It may take up to 10 business days to verify the business information."
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her account is under review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "This should only take a few minutes."
+msgstr ""
+
+#. translators: Open documentation guide link url text.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Learn more"
+msgstr ""
+
+#. translators: status message appearing when user click save in feed mode
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Failed"
+msgstr ""
+
+#. translators: The info card's title, telling partner that his/her account didn't pass our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Account didn't pass review"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her account didn't pass our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Additional business information is needed to continue."
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her brand profile didn't pass vetting and have data issue.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "There seems to be an error in the information submitted. To proceed with next steps, please check the data submitted."
+msgstr ""
+
+#. translators: The info card's title, telling partner that his/her brand profile has passed our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Brand profile approved"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her brand profile has passed our review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "The business information you provided has been verified."
+msgstr ""
+
+#. translators: Brand profile under review
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Brand profile under review"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her brand profile is under review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "This can take up to 5 business days to complete."
+msgstr ""
+
+#. translators: The info card's title, telling partner that his/her brand profile didn't pass review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Brand profile didn't pass review"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her brand profile didn't pass review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Additional information is needed to continue."
+msgstr ""
+
+#. translators: The info card's title, telling partner that his/her payment account is active.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Payment account active"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her payment account is active.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "This account can now receive payments from Microsoft."
+msgstr ""
+
+#. translators: The onboarding task's status text, which indicating this task's current state needs attention. Keep it short.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Needs attention"
+msgstr ""
+
+#. translators: The info card's title, telling partner that he/she needs to provide more info for the payment account.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Issue with payment account"
+msgstr ""
+
+#. translators: The info card's content, telling partner that he/she needs to provide more info for the payment account.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Additional information is needed to activate this account."
+msgstr ""
+
+#. translators: Common button text to navigate to next page. Usually shows in a popup or a form.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Update"
+msgstr ""
+
+#. translators: Common button text to get started some process.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Get started"
+msgstr ""
+
+#. translators: Payment account setting step description text for 'Payment Account setting' step when onboarding.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Set up payment account"
+msgstr ""
+
+#. translators: The info card's content, telling partner that he/she needs to set a payment account before publishing contents.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "A payment account is required before publishing. Setup time: 10 minutes or less."
+msgstr ""
+
+#. translators: The info card's content, telling partner that he/she needs to set a payment account before publishing contents.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Payment account under review"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her payment account is under review.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "This may take several business days to complete."
+msgstr ""
+
+#. translators: The info card's title, telling partner that his/her payment account has some error.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Error with payment account"
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her payment account has some error that need to fix.
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+msgid "Check the information you provided to activate this account."
+msgstr ""
+
+#. translators: true value of AI Assisted Content declaration in editor mode
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Yes, it is AI Assisted Content"
+msgstr ""
+
+#. translators: false value of AI Assisted Content declaration in editor mode
+#: assets/js/callback.js:1
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "No, it is not AI Assisted Content"
+msgstr ""
+
+#. translators: Conjunction in pagination, like '1 of 3'
+#: assets/js/dashboard.js:1
+msgid "{current} of {total}"
+msgstr ""
+
+#. translators: Tooltip when brand or partner status is suspended
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "Access denied"
+msgstr ""
+
+#. translators: Empty post text
+#: assets/js/dashboard.js:1
+msgid "Nothing to see here right now"
+msgstr ""
+
+#. translators: Toast content when select count over the maximum limit
+#: assets/js/dashboard.js:1
+msgid "$1 posts maximum are allowed for one batch submission."
+msgstr ""
+
+#. translators: Toast content when select 0 post
+#: assets/js/dashboard.js:1
+msgid "Select at least one post to submit"
+msgstr ""
+
+#. translators: Post title
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "Title"
+msgstr ""
+
+#. translators: image description text
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Featured image"
+msgstr ""
+
+#. translators: image description text
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "No Image"
+msgstr ""
+
+#. translators: Post Excerpt
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "Excerpt"
+msgstr ""
+
+#. translators: Post's publish time in wordpress in batch submission table
+#: assets/js/dashboard.js:1
+msgid "Originally published"
+msgstr ""
+
+#. translators: Notice title when unable to submit posts
+#: assets/js/dashboard.js:1
+msgid "Unable to submit posts"
+msgstr ""
+
+#. translators: Alert message in batch submission page
+#: assets/js/dashboard.js:1
+msgid "Your brand is currently suspended by MSN. You can't publish content to MSN."
+msgstr ""
+
+#. translators: Notice description when user use the feed mode but open the batch submission page
+#: assets/js/dashboard.js:1
+msgid "You're currently using 'Publish by feed'. Go to 'Settings' then select 'Publish by editor' to use batch submission."
+msgstr ""
+
+#. translators: Text in toast when user click the submit button but don't select any post
+#: assets/js/dashboard.js:1
+msgid "You don't have any posts to be submitted to MSN"
+msgstr ""
+
+#. translators: Title of Batch submission
+#: assets/js/dashboard.js:1
+msgid "Batch submission"
+msgstr ""
+
+#. translators: Submission maximum text in select banner
+#: assets/js/dashboard.js:1
+msgid "Up to $1 posts allowed in one submission."
+msgstr ""
+
+#. translators: Batch submit first maximum count button
+#: assets/js/dashboard.js:1
+msgid "Submit the first $1 posts"
+msgstr ""
+
+#. translators: Batch submit selected post button
+#: assets/js/dashboard.js:1
+msgid "Submit selected"
+msgstr ""
+
+#. translators: Page size text in pagination
+#: assets/js/dashboard.js:1
+msgid "Showing $1 posts per page"
+msgstr ""
+
+#. translators: Cancel button in dialog
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "Cancel"
+msgstr ""
+
+#. translators: Submit button in dialog
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "Submit"
+msgstr ""
+
+#. translators: Title in batch submit all dialog
+#: assets/js/dashboard.js:1
+msgid "Submit all $1 posts to MSN?"
+msgstr ""
+
+#. translators: Title in batch all dialog
+#: assets/js/dashboard.js:1
+msgid "Submit $1 post(s) to MSN?"
+msgstr ""
+
+#. translators: Submission progress
+#: assets/js/dashboard.js:1
+msgid "Submitting $1/$2 post(s)"
+msgstr ""
+
+#. translators: Notice description when posts are submitting
+#: assets/js/dashboard.js:1
+msgid "Batch submission can take a few minutes. Once submitted, content will need to pass our review before being published to MSN."
+msgstr ""
+
+#. translators: Submit next batch button
+#: assets/js/dashboard.js:1
+msgid "Submit next batch"
+msgstr ""
+
+#. translators: Dialog title before user leave the submission result page
+#: assets/js/dashboard.js:1
+msgid "Are you sure to submit next batch?"
+msgstr ""
+
+#. translators: Dialog description before user leave the submission result page
+#: assets/js/dashboard.js:1
+msgid "This list of failed posts won't be saved. But you can always start again and resubmit them using batch submission."
+msgstr ""
+
+#. translators: Title of submission result page
+#: assets/js/dashboard.js:1
+msgid "Submission status"
+msgstr ""
+
+#. translators: Button of Resubmit failed post(s)
+#: assets/js/dashboard.js:1
+msgid "Resubmit failed post(s)"
+msgstr ""
+
+#. translators: Button of stop batch submission
+#: assets/js/dashboard.js:1
+msgid "Stop submission"
+msgstr ""
+
+#. translators: Failed posts count and date in banner when all submitted post failed
+#: assets/js/dashboard.js:1
+msgid "$1 post(s) failed on $2"
+msgstr ""
+
+#. translators: Description of resubmit in result banner
+#: assets/js/dashboard.js:1
+msgid "Select Resubmit all failed post(s) to try again"
+msgstr ""
+
+#. translators: Submitted posts count, failed posts count and date in banner when all submitted post failed
+#: assets/js/dashboard.js:1
+msgid "$1 post(s) submitted and $2 post(s) failed on $3"
+msgstr ""
+
+#. translators: Description when all post submitted successfully
+#: assets/js/dashboard.js:1
+msgid "$1 post(s) are currently under review. Go to $2 to see publishing status. Select Resubmit all failed posts to try again."
+msgstr ""
+
+#. translators: Link to all post list
+#: assets/js/dashboard.js:1
+msgid "All posts"
+msgstr ""
+
+#. translators: Title of batch submission result table
+#: assets/js/dashboard.js:1
+msgid "Posts failed submission"
+msgstr ""
+
+#. translators: Placeholder of Target audience location
+#: assets/js/dashboard.js:1
+msgid "None"
+msgstr ""
+
+#. translators: Description in batch submission banner
+#: assets/js/dashboard.js:1
+msgid "Posts will be submitted with default settings applied. To change, go to $1."
+msgstr ""
+
+#. translators: header for content settings
+#: assets/js/dashboard.js:1
+msgid "Content settings"
+msgstr ""
+
+#. translators: header text for category selection
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+msgid "Category"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Uncategorized"
+msgstr ""
+
+#. translators: Label of Target audience location
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Target audience location"
+msgstr ""
+
+#. translators: Label of Canonical URL
+#: assets/js/dashboard.js:1
+msgid "Canonical URL"
+msgstr ""
+
+#. translators: Label of WordPress post URL
+#: assets/js/dashboard.js:1
+msgid "WordPress post URL"
+msgstr ""
+
+#. translators: selected count
+#: assets/js/dashboard.js:1
+msgid "All $1 selected"
+msgstr ""
+
+#. translators: selected count
+#: assets/js/dashboard.js:1
+msgid "$1 selected"
+msgstr ""
+
+#. translators: maximum selected limit in select banner
+#: assets/js/dashboard.js:1
+msgid "A maximum of $1 posts exceeded."
+msgstr ""
+
+#. translators: select all button
+#: assets/js/dashboard.js:1
+msgid "Select all"
+msgstr ""
+
+#. translators: Clear all button
+#: assets/js/dashboard.js:1
+msgid "Clear all"
+msgstr ""
+
+#. translators: Error message when network request error in toast
+#: assets/js/dashboard.js:1
+msgid "Network failure. Please try again later."
+msgstr ""
+
+#. translators: Button of dismiss notification
+#: assets/js/dashboard.js:1
+msgid "Dismiss"
+msgstr ""
+
+#. translators: placeholder when no notification in notification sidebar
+#: assets/js/dashboard.js:1
+msgid "Nothing to see here."
+msgstr ""
+
+#. translators: Notification sidebar's title
+#: assets/js/dashboard.js:1
+msgid "Notification"
+msgstr ""
+
+#. translators: dismiss all notification button
+#: assets/js/dashboard.js:1
+msgid "Dismiss all"
+msgstr ""
+
+#. translators: critical notification level
+#: assets/js/dashboard.js:1
+msgid "Critical"
+msgstr ""
+
+#. translators: warning notification level
+#: assets/js/dashboard.js:1
+msgid "Warning"
+msgstr ""
+
+#. translators: information notification level
+#: assets/js/dashboard.js:1
+msgid "Informational"
+msgstr ""
+
+#. translators: Text on join button before click
+#: assets/js/dashboard.js:1
+msgid "Join now"
+msgstr ""
+
+#. translators: Text on button after click
+#: assets/js/dashboard.js:1
+msgid "Connecting"
+msgstr ""
+
+#. translators: Title of text inviting users to join
+#: assets/js/dashboard.js:1
+msgid "Grow your audience with Microsoft—and get paid"
+msgstr ""
+
+#. translators: Text inviting users to join
+#: assets/js/dashboard.js:1
+msgid "You've been invited to join MSN Partner Hub. With this new program, you can make your WordPress posts available to the millions of people who use MSN."
+msgstr ""
+
+#. translators: Tooltip text for sign in hint under Edge browser
+#: assets/js/dashboard.js:1
+msgid "Sign in with the same account you use for Edge"
+msgstr ""
+
+#. translators: Card title of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Create and publish"
+msgstr ""
+
+#. translators: Card description of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Create a new post and publish it to MSN"
+msgstr ""
+
+#. translators: Card button text of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Create a post"
+msgstr ""
+
+#. translators: Card title of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Publish an existing post"
+msgstr ""
+
+#. translators: Card description of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Have an older post you want to share on Microsoft?"
+msgstr ""
+
+#. translators: Card button text of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Share now"
+msgstr ""
+
+#. translators: Card title of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Use batch submission"
+msgstr ""
+
+#. translators: Card description of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Publish multiple existing posts at once"
+msgstr ""
+
+#. translators: Card button text of onboarding transparency
+#: assets/js/dashboard.js:1
+msgid "Select batch"
+msgstr ""
+
+#. translators: The content in home page's welcome section.
+#: assets/js/dashboard.js:1
+msgid "See how to publish your content to our global feed with millions of daily active users. Attract new fans, expand your business, and get paid by Microsoft."
+msgstr ""
+
+#. translators: Steps to complete before publishing
+#: assets/js/dashboard.js:1
+msgid "Steps to complete before publishing"
+msgstr ""
+
+#. translators: The content in home page's welcome section.
+#: assets/js/dashboard.js:1
+msgid "How to share content"
+msgstr ""
+
+#. translators: Button of Run Health Check
+#: assets/js/dashboard.js:1
+msgid "Run Health Check"
+msgstr ""
+
+#. translators: title of Help Center page
+#: assets/js/dashboard.js:1
+msgid "Product FAQ"
+msgstr ""
+
+#. translators: title of Health Check page
+#: assets/js/dashboard.js:1
+msgid "Health Check"
+msgstr ""
+
+#. translators: Header of MSN Partner Hub plugin version health check block
+#: assets/js/dashboard.js:1
+msgid "MSN Partner Hub plugin version"
+msgstr ""
+
+#. translators: MSN Partner Hub plugin available version
+#: assets/js/dashboard.js:1
+msgid "MSN Partner Hub v%s is available. "
+msgstr ""
+
+#. translators: upgrade version link
+#: assets/js/dashboard.js:1
+msgid "Upgrade it now."
+msgstr ""
+
+#. translators: tips when MSN Partner Hub plugin version is supported
+#: assets/js/dashboard.js:1
+msgid "You're using MSN Partner Hub plugin v%s, which is supported here."
+msgstr ""
+
+#. translators: tips when MSN Partner Hub plugin version is lower
+#: assets/js/dashboard.js:1
+msgid "You're using MSN Partner Hub plugin v%s. This may cause compatibility issues."
+msgstr ""
+
+#. translators: header of wordpress version health check block
+#: assets/js/dashboard.js:1
+msgid "Wordpress version"
+msgstr ""
+
+#. translators: tip of upgrade the wp version
+#: assets/js/dashboard.js:1
+msgid "You can upgrade to the latest version. "
+msgstr ""
+
+#. translators: tips when Wordpress's version is lower
+#: assets/js/dashboard.js:1
+msgid "You're using WordPress v%s, which is supported here."
+msgstr ""
+
+#. translators: tips when Wordpress's version is supported
+#: assets/js/dashboard.js:1
+msgid "You're using WordPress v%s, which is not supported."
+msgstr ""
+
+#. translators: notify of use block editor
+#: assets/js/dashboard.js:1
+msgid "Use block editor for best performance. "
+msgstr ""
+
+#. translators: link of change editor mode
+#: assets/js/dashboard.js:1
+msgid "Switch now."
+msgstr ""
+
+#. translators: tip of editor mode is supported
+#: assets/js/dashboard.js:1
+msgid "You're using block editor, a supported editor mode."
+msgstr ""
+
+#. translators: tip of editor mode is not supported
+#: assets/js/dashboard.js:1
+msgid "You're using classic editor, which is not supported."
+msgstr ""
+
+#. translators: header of plugins list health check
+#: assets/js/dashboard.js:1
+msgid "Plugins compatibility with MSN Partner Hub"
+msgstr ""
+
+#. translators: tip of plugin list health check
+#: assets/js/dashboard.js:1
+msgid "If you have paused the conflict/unknown plugins, and are still having issues, you can also publish content via the feed. "
+msgstr ""
+
+#. translators: link of to publishing setting
+#: assets/js/dashboard.js:1
+msgid "Go to Publishing settings and select 'Feed publish.'"
+msgstr ""
+
+#. translators: Count of related question search result
+#: assets/js/dashboard.js:1
+msgid "Related question ($1)"
+msgstr ""
+
+#. translators: Tip under the FAQ search box when searching letters less than 2
+#: assets/js/dashboard.js:1
+msgid "Please enter at least two letters for searching"
+msgstr ""
+
+#. translators: appears in dashboard bar
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+msgid "Settings"
+msgstr ""
+
+#. translators: appears in dashboard bar and corresponding section title, also in Settings bar
+#: assets/js/dashboard.js:1
+msgid "Analytics"
+msgstr ""
+
+#. translators: appears in dashboard bar and corresponding section title
+#: assets/js/dashboard.js:1
+msgid "Monetization"
+msgstr ""
+
+#. translators: appears in settings bar and corresponding section title
+#: assets/js/dashboard.js:1
+msgid "Connection"
+msgstr ""
+
+#. translators: connection message
+#: assets/js/dashboard.js:1
+msgid "Your WordPress website is connected with MSN Partner Hub"
+msgstr ""
+
+#. translators: connection message
+#: assets/js/dashboard.js:1
+msgid "To easily publish your WordPress posts to MSN, sign in your Microsoft account here."
+msgstr ""
+
+#. translators: text on hyperlink to edit profile
+#: assets/js/dashboard.js:1
+msgid "Edit profile"
+msgstr ""
+
+#. translators: text on disconnect button
+#: assets/js/dashboard.js:1
+msgid "Disconnect"
+msgstr ""
+
+#. translators: status message appearing when user click save in feed mode
+#: assets/js/dashboard.js:1
+msgid "Success"
+msgstr ""
+
+#. translators: status message appearing when user click save in feed mode
+#: assets/js/dashboard.js:1
+msgid "Processing"
+msgstr ""
+
+#. translators: message indicating save result
+#: assets/js/dashboard.js:1
+msgid "Saved"
+msgstr ""
+
+#. translators: message indicating save result
+#: assets/js/dashboard.js:1
+msgid "Something went wrong."
+msgstr ""
+
+#. translators: Error message on changing feed settings when feed is suspended
+#: assets/js/dashboard.js:1
+msgid "This feed is suspended by MSN for not meeting our {publishingGuideline}. You can't make any changes. Contact MSPH support for more information."
+msgstr ""
+
+#. translators: Error message on changing feed settings when feed is deleted
+#: assets/js/dashboard.js:1
+msgid "This feed has been deleted by MSN for not meeting our {publishingGuideline}. You can't make changes. Contact MSPH support for more information."
+msgstr ""
+
+#. translators: text on editor mode toggle
+#: assets/js/dashboard.js:1
+msgid "Publish by editor"
+msgstr ""
+
+#. translators: text on feed mode toggle
+#: assets/js/dashboard.js:1
+msgid "Publish by feed"
+msgstr ""
+
+#. translators: Link text for publishing guidelines
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "publishing guidelines"
+msgstr ""
+
+#. translators: settings title
+#: assets/js/dashboard.js:1
+msgid "Publishing settings"
+msgstr ""
+
+#. translators: settings text
+#: assets/js/dashboard.js:1
+msgid "These settings help target your content to the right audience. They will be applied to new WordPress posts you share with MSN."
+msgstr ""
+
+#. translators: Warning in content setting page when batch submission in progress
+#: assets/js/dashboard.js:1
+msgid "You cannot change content settings while importing posts to MSN."
+msgstr ""
+
+#. translators: error message displayed when settings cannot be displayed
+#: assets/js/dashboard.js:1
+msgid "Something went wrong. Please try again later."
+msgstr ""
+
+#. translators: text about setting publish methods
+#: assets/js/dashboard.js:1
+msgid "Automatically publish new posts to Microsoft"
+msgstr ""
+
+#. translators: text on save button
+#: assets/js/dashboard.js:1
+msgid "Save"
+msgstr ""
+
+#. translators: category selection text
+#: assets/js/dashboard.js:1
+msgid "Default category"
+msgstr ""
+
+#. translators: One of feed configuration fields
+#: assets/js/dashboard.js:1
+msgid "Default locations for local news"
+msgstr ""
+
+#. translators: description of local news selector
+#: assets/js/dashboard.js:1
+msgid "Your local news content is being targeted to these areas."
+msgstr ""
+
+#. translators: edit locations link to MSPH
+#: assets/js/dashboard.js:1
+msgid "Edit locations in MSPH"
+msgstr ""
+
+#. translators: Usage tip for users using feed mode
+#: assets/js/dashboard.js:1
+msgid "MSN Partner Hub plugin users can set up an RSS feed to automatically ingest new content to the MSN Partner Hub."
+msgstr ""
+
+#. translators: Usage tip for users using feed mode
+#: assets/js/dashboard.js:1
+msgid "Don't have an RSS feed? Your web-service provider should be able to help you set one up."
+msgstr ""
+
+#. translators: Usage tip for users using feed mode
+#: assets/js/dashboard.js:1
+msgid "Select 'Save' to start automatic content ingestion. The MSN Partner Hub will ingest your content and update every few minutes."
+msgstr ""
+
+#. translators: Usage tip for users using feed mode, %s will be replaced by "MSN Partner Hub feed page", no need for translation
+#: assets/js/dashboard.js:1
+msgid "Visit the %s to see the status of an  individual post and other details."
+msgstr ""
+
+#. translators: Usage tip for users using feed mode
+#: assets/js/dashboard.js:1
+msgid "MSN Partner Hub feed page"
+msgstr ""
+
+#. translators: One of feed configuration fields
+#: assets/js/dashboard.js:1
+msgid "Feed Name"
+msgstr ""
+
+#. translators: One of feed configuration fields
+#: assets/js/dashboard.js:1
+msgid "Feed URL"
+msgstr ""
+
+#. translators: One of feed configuration fields
+#: assets/js/dashboard.js:1
+msgid "Type"
+msgstr ""
+
+#. translators: One of feed types
+#: assets/js/dashboard.js:1
+msgid "Article"
+msgstr ""
+
+#. translators: One of feed configuration fields
+#: assets/js/dashboard.js:1
+msgid "Format"
+msgstr ""
+
+#. translators: One of feed format, Really Simple Syndication
+#: assets/js/dashboard.js:1
+msgid "RSS"
+msgstr ""
+
+#. translators: One of feed configuration fields
+#: assets/js/dashboard.js:1
+msgid "Country/Region"
+msgstr ""
+
+#. translators: One of feed configuration fields
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Local news"
+msgstr ""
+
+#. translators: Tooltip of IsLocalNews selector
+#: assets/js/dashboard.js:1
+msgid "Select Yes if your site covers local news and events. This will show your content to users in and around that area."
+msgstr ""
+
+#. translators: Tooltip of locations selector
+#: assets/js/dashboard.js:1
+msgid "Please select at least 1 and up to 10 locations for the intended audience. This can be a city or county or combined."
+msgstr ""
+
+#. translators: AI Assisted Content declaration selector label
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "AI Assisted Content declaration"
+msgstr ""
+
+#. translators: Tooltip of AI Assisted Content declaration selector label
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Select {b}Yes{/b} if any content (text, image or video) generated with the assistance of AI. Do not submit content that is unreviewed AI-generated content."
+msgstr ""
+
+#. translators: appears in settings bar and corresponding section title
+#: assets/js/dashboard.js:1
+msgid "Profile"
+msgstr ""
+
+#. translators: introdction text for Profile section, %s will be replaced by "edit file", no need for translation
+#: assets/js/dashboard.js:1
+msgid "This is how your profile and byline appear on MSN. Select %s to make changes."
+msgstr ""
+
+#. translators: introdction text for Profile section
+#: assets/js/dashboard.js:1
+msgid "edit profile"
+msgstr ""
+
+#. translators: description title for name
+#: assets/js/dashboard.js:1
+msgid "Name"
+msgstr ""
+
+#. translators: description title for description
+#: assets/js/dashboard.js:1
+msgid "Description"
+msgstr ""
+
+#. translators: Settings tab title
+#: assets/js/dashboard.js:1
+msgid "Content"
+msgstr ""
+
+#. translators: Account not approved page title
+#: assets/js/dashboard.js:1
+msgid "Your account was not approved"
+msgstr ""
+
+#. translators: Account not approved page desp
+#: assets/js/dashboard.js:1
+msgid "Transactions for this account is not allowed. Please contact ({email}) for support or connect to a brand with an available partner account."
+msgstr ""
+
+#. translators: Notice message when session expired
+#: assets/js/dashboard.js:1
+msgid "Session expired, it will restored after we refresh your page."
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Autos"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Entertainment"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Finance"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Food & Drink"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Health & Fitness"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Lifestyle"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "News"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Sports"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Travel"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Video"
+msgstr ""
+
+#. translators: categories
+#: assets/js/dashboard.js:1
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Weather"
+msgstr ""
+
+#. translators: time of yesterday
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "Yesterday"
+msgstr ""
+
+#. translators: time of {n} days ago
+#: assets/js/dashboard.js:1
+#: assets/js/status.js:1
+msgid "{n} days ago"
+msgstr ""
+
+#. translators: Where the words appear.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "main content"
+msgstr ""
+
+#. translators: Where the words appear.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "embedded media"
+msgstr ""
+
+#. translators: Additional hint message when the rejected words or images are more than threshold
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Only a maximum of 50 images or 100 words are shown here."
+msgstr ""
+
+#. translators: message for failed moderation
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Failures detected during moderation. Contact us if issue persists."
+msgstr ""
+
+#. translators: Hint text for rejection details. %s will be replaced by link to publishing guidelines
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "The following does not meet our %s."
+msgstr ""
+
+#. translators: text for hyper link to MSPH
+#: assets/js/editorSidebar.js:1
+msgid "View post on MSN Partner Hub"
+msgstr ""
+
+#. translators: explanation text for button
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Publish to Microsoft"
+msgstr ""
+
+#. translators: Title text of rejection details section
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Rejection details"
+msgstr ""
+
+#. translators: section header for publish settings
+#: assets/js/editorSidebar.js:1
+msgid "Publishing settings for this post"
+msgstr ""
+
+#. translators: description of featured image in posteditor panel
+#: assets/js/editorSidebar.js:1
+msgid "This image will be used to promote this post in the MSN feed. If there is no featured image, the first image in the post will be used."
+msgstr ""
+
+#. translators: label text for add featured image as first image in post
+#: assets/js/editorSidebar.js:1
+msgid "Add featured image as first image in post"
+msgstr ""
+
+#. translators: explanation text for button
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Change author name"
+msgstr ""
+
+#. translators: label text for canonical url
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Customize canonical URL"
+msgstr ""
+
+#. translators: placeholder text for canonical url
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "URL to the original story for search crawlers"
+msgstr ""
+
+#. translators: hint text when not setting a customized canonical url for the post
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "URL of your post will be used as the canonical URL."
+msgstr ""
+
+#. translators: description of IsLocalNews toggle
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Target this post for audiences in specific areas."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Articles must have at least 450 characters."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content contains duplicate images."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content contains duplicate videos."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content contains broken links."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one link is broken."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "File size exceeds 524 KB."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Character count exceeds 500,000."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content source not approved for use."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content source not approved due to sensitivity detected."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "In the {wordsPosition}, at least one term or phrase promotes suicide or self-harm."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one embedded image or other content type failed validation. Contact us for details."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Article language doesn't match region setting."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Slideshow must have at least 200 characters from title to description."
+msgstr ""
+
+#. translators: one of reason messages for content rejection, $1 and $2 will be replaced by examples
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Dates must be listed in the following formats: “$1”, “$2”."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image glamorizes the use of alcohol."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image glamorizes the use of tobacco products."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image contains nudity or sexual content."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image depicts graphic violence."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Image file size must be at least 10KB."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "In the {wordsPosition}, at least one image contains profanity or vulgar language."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image shows a dead body."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image glamorizes drug use."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "A content source hasn't been validated."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image has potential copyright issues."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Unable to publish. Contact us for help."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Appeal request has timed out. Resubmit or contact us for help."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Moderation request timed out. Resubmit or contact us for help."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Moderation service error. Contact us for help."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Video processing error. Contact us for help."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "May contain copyrighted material."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Featured image is missing."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Canonical URL is broken."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "A gallery must have between 2 and 200 images."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one slide is missing an image."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Social media embedded in this content contains profanity."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Exceeds daily posting limit."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "In the {wordsPosition}, at least one term or phrase contains profanity or vulgar language."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Video is missing closed captions."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Video thumbnail is missing."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one video contains nudity or sexual content."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "An error occurred processing a video. Resubmit or contact us for help."
+msgstr ""
+
+#. translators: one of reason messages for content rejection
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one video contains graphic violence, nudity, or sexual content."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Video processing has timed out. Resubmit or contact us for help."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "At least one image depicts suicide or self-harm."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content did not pass review."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content is a duplicate of a previously published version."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Content contains invalid HTML encoding."
+msgstr ""
+
+#. translators: one of reject content published reason message.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Each image side must be at least 400px in length."
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Draft"
+msgstr ""
+
+#. translators: text denoting brand status or post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Under review"
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Published"
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Rejected"
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Unpublished"
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Not submitted"
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Unpublishing"
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Not found"
+msgstr ""
+
+#. translators: post status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Unknown"
+msgstr ""
+
+#. translators: reminder message for users to connect to MSPH
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "To use MSN Partner Hub, connect your WordPress website"
+msgstr ""
+
+#. translators: Alert message in editor sidebar
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Your brand was suspended by MSN and content can't be published."
+msgstr ""
+
+#. translators: Account not approved description in editor sidebar
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Your account was not approved. Transactions for this account is not allowed."
+msgstr ""
+
+#. translators: The info card's content, telling partner that his/her brand profile didn't pass vetting and have data issue in post editor sidebar.
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "There seems to be an error in the information submitted. To proceed with next steps, please check the data submitted or contact ({email}) for support."
+msgstr ""
+
+#. translators: explanation text for users not approved yet
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Once your profile is approved, you can automatically publish your WordPress posts to MSN. Your work will appear alongside content from individual creators and established media brands."
+msgstr ""
+
+#. translators: explanation text for admin when the brand hasn't added a payment account yet
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "You can't publish content until you add a payment account."
+msgstr ""
+
+#. translators: explanation text for non-admin when the brand hasn't added a payment account yet
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "A payment account has not been added by your organization. This is required for publishing."
+msgstr ""
+
+#. translators: reminder message for users to change post visibility
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "To change publishing settings, set post visibility to public"
+msgstr ""
+
+#. translators: reminder message for users to disable feed mode
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "The content will be automatically published to Microsoft by feed as your setting."
+msgstr ""
+
+#. translators: Status text of appealing
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Appealing"
+msgstr ""
+
+#. translators: Status text of appeal error
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Appeal error"
+msgstr ""
+
+#. translators: Status text of appeal denied
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Appeal denied"
+msgstr ""
+
+#. translators: Notification text when appeal is pending. %s will be replaced by link to refresh status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "If your appeal is approved, this will be published to MSN. If denied, you can edit and submit again. %s for status updates."
+msgstr ""
+
+#. translators: Link text to refresh appeal status
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "Refresh"
+msgstr ""
+
+#. translators: Error message when appeal is failed
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "There was an error submitting your appeal. Contact support for help."
+msgstr ""
+
+#. translators: Error message when appeal is denied
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "This article violates our publishing guidelines and will remain unpublished."
+msgstr ""
+
+#. translators: Notification text when appeal is approved
+#: assets/js/editorSidebar.js:1
+#: assets/js/status.js:1
+msgid "This post meets our publishing guidelines. It has been published to MSN."
+msgstr ""
+
+#. translators: Title text of requesting appeal dialog
+#: assets/js/status.js:1
+msgid "Request appeal"
+msgstr ""
+
+#. translators: Error message when appeal submission failed
+#: assets/js/status.js:1
+msgid "Submission failed. Check your network connection and try again."
+msgstr ""
+
+#. translators: Description of requesting appeal dialog
+#: assets/js/status.js:1
+msgid "Explain why you're appealing. Make sure to address all the reasons listed in the rejection details. You're allowed one appeal per story."
+msgstr ""
+
+#. translators: Placeholder text of appeal reason input
+#: assets/js/status.js:1
+msgid "Why do you believe your content should be approved?"
+msgstr ""
+
+#. translators: Error message when appeal reason is too long. $1 will be replaced by max length
+#: assets/js/status.js:1
+msgid "Reasons should be no more than $1 characters"
+msgstr ""
+
+#. translators: Notification text when appeal is submitted
+#: assets/js/status.js:1
+msgid "Appeal submitted. You will receive a response within 2 business days."
+msgstr ""
+
+#. translators: Post tag
+#: assets/js/status.js:1
+msgid "Tag"
+msgstr ""
+
+#. translators: header text for category selection
+#: assets/js/status.js:1
+msgid "MSN category"
+msgstr ""
+
+#. translators: Tips in sidebar
+#: assets/js/status.js:1
+msgid "Once you click the \"Publish to Microsoft\" button, your content will be individually published to MSN Partner Hub. It will not change anything of your website"
+msgstr ""
+
+#. translators: Post update error notice
+#: assets/js/status.js:1
+msgid "Update error."
+msgstr ""
+
+#. translators: Title text of reject details sidebar
+#: assets/js/status.js:1
+msgid "Post rejected"
+msgstr ""
+
+#. translators: Title text of about the post section
+#: assets/js/status.js:1
+msgid "About the post"
+msgstr ""
+
+#. translators: Label text of last updated time in MSN Partner Hub
+#: assets/js/status.js:1
+msgid "Last updated in MSPH"
+msgstr ""
+
+#. translators: Button text to request appeal
+#: assets/js/status.js:1
+msgid "Appeal"
+msgstr ""
+
+#. translators: Button text to edit content
+#: assets/js/status.js:1
+msgid "Edit content"
+msgstr ""
+
+#. translators: Post update success notice
+#: assets/js/status.js:1
+msgid "Post updated."
+msgstr ""
+
+#. translators: Empty content notice
+#: assets/js/status.js:1
+msgid "Empty content post cannot be published to MSPH."
+msgstr ""
+
+#. translators: Publish button in column
+#: assets/js/status.js:1
+msgid "Publish"
+msgstr ""
+
+#. translators: Hint text for expired content. $1 will be replaced by expired days
+#: assets/js/status.js:1
+msgid "Content automatically expires $1 days after last update"
+msgstr ""
+
+#. translators: Status text of content which will be expired in 1 day
+#: assets/js/status.js:1
+msgid "Expires in 1 day"
+msgstr ""
+
+#. translators: Status text of content which will be expired in several days, $1 will be replaced by the number of days
+#: assets/js/status.js:1
+msgid "Expires in $1 days"
+msgstr ""
+
+#. translators: status to be displayed when we are fetching the real status
+#: assets/js/status.js:1
+msgid "Loading..."
+msgstr ""
+
+#. translators: Status text of expired content
+#: assets/js/status.js:1
+msgid "Content expired"
+msgstr ""
